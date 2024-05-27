@@ -73,4 +73,4 @@ function songbookCommand:GetHelp()
 	Turbine.Shell.WriteLine( Strings["sh_help3"] );
 end
 Turbine.Shell.AddCommand( "songbookBB", songbookCommand );
-Turbine.Shell.WriteLine( "SongbookBB v"..Plugins["SongbookBB"]:GetVersion().." (Chiran, The Brandy Badgers, Zedrock)" );
+Turbine.Shell.WriteLine( "SongbookBB v"..Plugins["SongbookBB"]:GetVersion().." (Chiran, The Brandy Badgers, Zedrock, Ike Illmore)" );

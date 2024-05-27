@@ -58,7 +58,13 @@ function SettingsWindow:Constructor()
 	function( sender, args )
 		songbookWindow:ToggleTracks();
 	end );
-	
+
+	-- Checkbox : Solo mode - uses party object, enables sync start quickslot
+	self.soloCheck = self:CreateCheckBox( "cb_solo", self.yPos, Settings.SoloMode, 
+	function( sender, args )
+		songbookWindow:SetSoloMode( sender:IsChecked() );
+	end, 120, 250 );
+
 	-- Checkbox : Search Function
 	self.searchCheck = self:CreateCheckBox( "cb_search", self:NextPos(), Settings.SearchVisible, 
 	function( sender, args )
