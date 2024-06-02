@@ -43,7 +43,7 @@ if ( lang == "en" ) then
 	Strings["cb_instrvisHForced"] = "Horizontal"; -- ZEDMOD
 	Strings["ui_btn_opacity"] = "Songbook button opacity";
 	-- Badgers
-	Strings["title"] = ": The Badger Z Chapter";
+	Strings["title"] = ": The Badger Z Chapter II";
 	Strings["filters"] = "Filters";
 	Strings["filterParts"] = "#Parts";
 	Strings["filterArtist"] = "Artist";
@@ -237,7 +237,7 @@ elseif ( lang == "de" ) then
 	Strings["cb_instrvisHForced"] = "Horizontale"; -- ZEDMOD
 	Strings["ui_btn_opacity"] = "Songbookknopf Sichtbarkeit";
 	-- Badgers additions for V0.94+ (players list, ready state indication, filters, etc.)
-	Strings["title"] = ": Das Z Badger-Kapitel";
+	Strings["title"] = ": Das Z Badger-Kapitel II";
 	Strings["filters"] = "Filter";
 	Strings["filterParts"] = "#Spieler";
 	Strings["filterArtist"] = "K\195\188nstler";
@@ -429,7 +429,7 @@ elseif ( lang == "fr" ) then
 	Strings["cb_instrvisHForced"] = "Horizontal"; -- ZEDMOD
 	Strings["ui_btn_opacity"] = "Opacit\195\169 du bouton Songbook";
 	-- Badgers
-	Strings["title"] = ": The Badger Z Chapter";
+	Strings["title"] = ": The Badger Z Chapter II";
 	Strings["filters"] = "Filtres";
 	Strings["filterParts"] = "#Joueurs";
 	Strings["filterArtist"] = "Artiste";
